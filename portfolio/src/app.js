@@ -1,17 +1,10 @@
 import React, {Component} from 'react';
 import Projects from './Projects';
+import SocialProfiles from './SocialProfiles';
+import profile from './assets/images/profile.png';
 
 class App extends Component {
     state = { displayBio: false};
-
-
-    // constructor() {
-    //     super(); //calls the parent companant class
-    //     this.state = {displayBio: false};
-
-    //     this.toggleDisplaBio = this.toggleDisplaBio.bind(this); //allows this readMore function to access the App's this
-    // }
-
 
     toggleDisplaBio = () => {
         this.setState({ displayBio: !this.state.displayBio}); //always call set state instead of directly modifying the state
@@ -21,9 +14,10 @@ class App extends Component {
 
         return (
             <div>
-                <h1>Hello!</h1>
+                <img src = {profile} alt='profile' className = 'profilePhoto'/>
+                <h1>Welcome!</h1>
                 <p>My name is Michael Sault.</p>
-                <p>I am a recent graduate from the Univeristy of Ottawa's computer science program.</p>
+                <p>I am a recent graduate of Univeristy of Ottawa's computer science program.</p>
 
                 
                 {
@@ -43,6 +37,8 @@ class App extends Component {
                 }
                 <hr />
                 <Projects />
+                <hr />
+                <SocialProfiles />
             </div>
         )
     }

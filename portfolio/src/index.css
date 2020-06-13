@@ -1,0 +1,33 @@
+@font-face {
+    font-family: economicaBold;
+    src: url(assets/fonts/Economica-Bold.ttf)
+}
+
+@font-face {
+    font-family: montserratRegular;
+    src: url(assets/fonts/Montserrat-Light.ttf)
+}
+
+body {
+    text-align: center;
+    font-size: 15px;
+    padding: 2.5%;
+    font-family: 'montserratRegular';
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'economicaBold';
+}
+
+.profilePhoto {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+.projectImages {
+    width: 200px;
+    height: 120px;
+    border: 1px;
+    border-style: solid;
+}

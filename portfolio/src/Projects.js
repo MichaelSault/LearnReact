@@ -8,9 +8,9 @@ class Project extends Component {
         const { title, image, description, link} = this.props.project; //basically this.title, this.image declarations in 1 line
 
         return (
-            <div style = {{ display: 'inline-block', width: 400, marhin: 10 }}>
+            <div style = {{ display: 'inline-block', width: 450, margin: 2 }}>
                 <h3>{title}</h3>
-                <img src = {image} alt = 'profile' style = {{width: 200, height: 120}}/>
+                <img src = {image} alt = 'profile' className = 'projectImages'/>
                 <p>{description}</p>
                 <a href = {link}>{link}</a>
             </div>
