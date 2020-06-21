@@ -1,4 +1,4 @@
-import React, {Componant} from 'react';
+import React, {Component} from 'react';
 
 const TITLES = [
     'recent graduate of Univeristy of Ottawas computer science program.',
@@ -7,7 +7,7 @@ const TITLES = [
     'distance runner'
 ];
 
-class Title extends Componant {
+class Title extends Component {
     state = { titleIndex: 0};
 
     render() {
