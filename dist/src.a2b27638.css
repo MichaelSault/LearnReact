@@ -1,0 +1,57 @@
+@font-face {
+    font-family: economicaBold;
+    src: url(/Economica-Bold.e793a056.ttf)
+}
+
+@font-face {
+    font-family: montserratRegular;
+    src: url(/Montserrat-Light.acd2518a.ttf)
+}
+
+body {
+    text-align: center;
+    font-size: 15px;
+    padding: 2.5%;
+    font-family: 'montserratRegular';
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'economicaBold';
+}
+
+.profilePhoto {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+.projectImages {
+    width: 200px;
+    height: 120px;
+    border: 1px;
+    border-style: solid;
+}
+
+.title-fade-out {
+    opacity: 0;
+    animation-name: fade-out;
+    animation-duration: 2.5s;
+}
+
+.title-fade-in {
+    opacity: 100;
+    animation-name: fade-in;
+    animation-duration: 2.5s;
+}
+
+@keyframes fade-out {
+    from {opacity: 100}
+    to {opacity: 0}
+}
+
+@keyframes fade-in {
+    from {opacity: 0}
+    to {opacity: 100}
+}
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
