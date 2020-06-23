@@ -3,7 +3,7 @@
 //libraries needed for react
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app.js';
+import App from './components/app.js';
 import './index.css'; //import stylesheet into js page
 
 ReactDOM.render(<App />, document.getElementById('root'));
