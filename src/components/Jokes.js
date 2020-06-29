@@ -11,14 +11,16 @@ class Jokes extends Component {
         //use a promis (a var that will have a val in the future)
         fetch('https://official-joke-api.appspot.com/random_joke')
             .then(response => response.json())
-            .then(json => this.setState( {joke: json}));
-        
+            .then(json => this.setState( {joke: json}))
+            .catch(error => alert(error.message)); //alerts with error if fetch fails
     }
 
     fetchJokes = () => {
         fetch('https://official-joke-api.appspot.com/random_ten')
         .then(response => response.json())
-        .then(json => this.setState({jokes: json}));
+        .then(json => this.setState({jokes: json}))
+        .catch(error => alert(error.message)); 
+
     }
 
     render() {

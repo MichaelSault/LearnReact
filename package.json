@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "parcel-bundler": "^1.10.3",
+    "history": "^4.10.1",
+    "parcel-bundler": "^1.12.4",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^6.0.0",
