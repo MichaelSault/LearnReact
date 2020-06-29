@@ -29973,7 +29973,7 @@ var App = /*#__PURE__*/function (_Component) {
         src: _profile.default,
         alt: "profile",
         className: "profilePhoto"
-      }), /*#__PURE__*/_react.default.createElement("h1", null, "Welcome!"), /*#__PURE__*/_react.default.createElement("p", null, "My name is Michael Sault."), /*#__PURE__*/_react.default.createElement(_title.default, null), this.state.displayBio ? /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "I live in Burlington Ontario, and I have made it my goal to code everyday this year."), /*#__PURE__*/_react.default.createElement("p", null, "My languages of choice are Java and Javascript."), /*#__PURE__*/_react.default.createElement("p", null, "I am also comfortable with HTML5, CSS, JS, Php, mySQL, React.js and Python"), /*#__PURE__*/_react.default.createElement("button", {
+      }), /*#__PURE__*/_react.default.createElement("h1", null, "Welcome!"), /*#__PURE__*/_react.default.createElement("p", null, "My name is Michael Sault."), /*#__PURE__*/_react.default.createElement(_title.default, null), this.state.displayBio ? /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "I live in Burlington, Ontario"), /*#__PURE__*/_react.default.createElement("p", null, "My languages of choice are Java and Javascript."), /*#__PURE__*/_react.default.createElement("p", null, "I am also comfortable with HTML5, CSS, JS, Php, mySQL, React.js and Python"), /*#__PURE__*/_react.default.createElement("button", {
         onClick: this.toggleDisplaBio
       }, "Show Less")) :
       /*#__PURE__*/
