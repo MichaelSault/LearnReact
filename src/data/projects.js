@@ -12,7 +12,7 @@ const PROJECTS = [
     },
     {
         id: 2,
-        title: 'Pirate Clicker Game',
+        title: 'Doubloon Clicker',
         description: 'A JS app based on Cookie Clicker, that will be updated to include core React concepts.',
         link: 'https://michaelsault.github.io/PirateClickerGame/',
         image: project2
